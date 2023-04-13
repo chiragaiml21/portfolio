@@ -1,0 +1,204 @@
+@media (max-width: 600px){
+    body{
+        overflow-x: hidden;
+    }
+    #about{
+        height: 1100px;
+    }
+
+    #slash{
+        display: none;
+    }
+    nav ul li a{
+        display: none;
+    }
+    #cs_student{
+        display: none;
+    }
+    nav{
+        height: 250px;
+        position: absolute;
+        z-index: 0;
+        overflow-x: hidden;
+    }
+    #sec1_right{
+        display: none;
+    }
+    #sec1_left{
+        width: 100%;
+        height: 1100px;
+    }
+    #profile_card h1{
+        margin-left: 24.5%;;
+    }
+    #profile_card{
+        position: absolute;
+        margin-top: 25%;
+        margin-left: 7%;
+        width: 85%;
+        height: 420px;
+        box-shadow: -10px 60px 20px rgba(0, 0, 0, 0.522);
+    }
+    #profile_card:hover{
+        box-shadow: -10px 60px 20px rgba(0, 0, 0, 0.522);
+        transition: 0.2s;
+    }
+    #profile_card_footer{
+        position: absolute;
+        margin-top: 520px;
+        margin-left: 7%;
+        z-index: 1;
+        width: 85%;
+        height: 7%;
+    }
+    #about_me{
+        display: flex;
+    }
+    #me{
+        display: none;
+    }
+    #menu{
+        display: flex;
+        padding-left: 13.5rem;
+        padding-top: 30px;
+        font-size: 25px;
+    }
+    #sec1_left_text{
+        display: block;
+        position: absolute;
+        z-index: 1;
+        margin-top: 500px;
+    }
+    #desc{
+        background-color: transparent;
+        margin-left: 16%;
+    }
+    #desc h3{
+        margin-top: 10px;
+    }
+    #desc p{
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    #desc #p1{
+        margin-top: 20px;
+    }
+    #footer{
+        height: 200px;
+    }
+    .footer_items{
+        margin-left: 1%;
+        display: grid;
+    }
+    #projects_btn{
+        margin-right: 10px;;
+    }
+    #buttons{
+        margin-left: 9%;
+    }
+    #resume h1{
+        margin-left: 30%;
+    }
+    #projects h1{
+        margin-left: 30%;
+    }
+    .r{
+        width: 90%;
+        height: 400px;
+        margin-left: 5%;
+    }
+    .p{
+        width: 90%;
+        height: 250px;
+        margin-left: 5%;
+    }
+    #resume{
+        width: 100%;
+        height: 1200px;
+        background: rgb(222, 209, 191);
+    }
+    #projects{
+        width: 100%;
+        height: 800px;
+        background: rgb(222, 209, 191);
+    }
+
+
+
+    .heading{
+        display: flex;
+    }
+    .heading h2,.heading button{
+        margin-left: 15%;
+        margin-top: 15%;
+    }
+    .r .left_data{
+        margin-left: 10%;
+        margin-top: 7%;
+    }
+    .left_data h2{
+        width: 170px;
+        color:rgb(25, 90, 255);
+        font-size: 20px;
+    }
+    .left_data p{
+        margin-top: 3%;
+        color:rgba(0, 0, 0, 0.725)
+    }
+    .left_data .uni{
+        font-size: 20px;
+        color: black;
+    }
+    .r .right_data{
+        right: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 8%; 
+    }
+    
+    .r .def{
+        margin-left: 10%;
+        padding-top: 10%;
+    }
+    .p h2{
+        margin-left: 15%;
+        padding-top: 17%;
+        font-size: 25px;
+        text-shadow: 2px 2px #00000047;
+    }
+    .p p{
+        margin-left: 12%;
+        margin-top: 10%;
+    }
+    .p h2:hover{
+        transition: 0.1s;
+        text-shadow: 2px 2px #00000081;
+        color: rgb(0, 23, 83);
+    }
+    .r:hover, .p:hover{
+        transform: scale(1.1);
+        transition: 0.2s ease;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 400px){
+    body{
+        overflow-x: hidden;
+    }
+    #profile_card_footer{
+        margin-top: 500px;
+    }
+    #menu{
+        padding-left: 10rem;
+    }
+    #projects_btn{
+        margin-right: 10px;;
+    }
+    #buttons{
+        margin-left: 25%;
+    }
+}
